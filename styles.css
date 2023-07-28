@@ -191,3 +191,63 @@ ul.cards {
     padding: 0;
     flex: 1;
 }
+
+.last {
+    margin: 80px 10%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last .card {
+    flex: 1;
+    background-color: hsl(217, 91%, 59%);
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;    
+}
+
+.last .card .button {
+    border: 2px solid hsl(90, 17%, 98%);;
+    background-color: hsl(217, 91%, 59%);
+    color: hsl(90, 17%, 98%);
+    font-weight: 700;
+    font-size: 17px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.last .card .content {
+    flex: initial;
+}
+
+.last .card .content h2 {
+    font-size:24px;
+    color: hsl(90, 17%, 98%);
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.last .card .content p {
+    font-size: 18px;
+    color: hsl(220, 13%, 91%);
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: hsl(220, 13%, 91%);
+    padding: 30px 0;
+}

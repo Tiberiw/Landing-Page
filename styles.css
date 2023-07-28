@@ -80,9 +80,8 @@ img {
 .media .image {
     max-width: 280px;
     flex: 1;
-    margin: 0;
+    margin: 30px;
     padding: 0;
-    background: grey;
 }
 
 .media .content {
@@ -122,10 +121,12 @@ img {
 .information{
     height: 500px;
     margin: 0 10%;
+    padding-bottom: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start ;
+    justify-content: flex-start;
+    flex: 1;
 }
 
 .information h1 {
@@ -159,10 +160,12 @@ ul.cards {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex: 1;
 }
 
 .quote .content {
     margin: 0 10%;
+    margin-bottom: 60px;
     display: flex;
     width: 1000px;
     flex-direction: column;
